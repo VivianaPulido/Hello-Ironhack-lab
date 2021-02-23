@@ -1,9 +1,15 @@
+//ARCHIVO DE ENTRADA
+
+//1.IMPORTACIONES
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+//a) importacion de componenetes
 import App from './App';
+//de momento no lo usamos
 import reportWebVitals from './reportWebVitals';
 
+//RENDERIZADO
 ReactDOM.render(
   <React.StrictMode>
     <App />
